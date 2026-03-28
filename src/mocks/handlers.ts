@@ -126,7 +126,7 @@ export const handlers = [
       return HttpResponse.json({
         data: {
           id: '1',
-          name: 'Fransley Araújo',
+          name: 'Onda User',
           email: 'user@onda.finance',
         },
         message: 'Login successful',
