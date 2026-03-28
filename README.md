@@ -8,6 +8,8 @@
 
 Uma aplicação bancária moderna e poderosa para transferências globais, suportando tanto moedas fiduciárias (BRL, USD) quanto cripto (USDT).
 
+https://onda-finance-one.vercel.app/
+
 ## 🚀 Como rodar o projeto
 
 ### Pré-requisitos
