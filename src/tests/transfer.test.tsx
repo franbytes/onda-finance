@@ -29,7 +29,7 @@ describe('TransferForm', () => {
 
   beforeEach(() => {
     vi.clearAllMocks()
-    ;(useNavigate as any).mockReturnValue(mockNavigate)
+    vi.mocked(useNavigate).mockReturnValue(mockNavigate)
     useBalanceStore.getState().resetBalance()
   })
 

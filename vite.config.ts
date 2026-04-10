@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
     tailwindcss(),
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     mode === 'production' && (obfuscator as any)({
       options: {
         compact: true,
